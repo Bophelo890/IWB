@@ -1,0 +1,280 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffffff;
+    color: #333333;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #1A237E;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #00BCD4;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #ffffff;
+}
+.navbar li{
+    float: left;
+}
+button{
+    background-color: #00BCD4;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 16px;
+    float: right;
+    margin-right: 16px;
+}
+button:hover{
+    background-color: #1A237E;
+}
+.prg1 img:hover{
+    background-color: #00BCD4;
+}
+h1{
+    font-family: Arial Bold;
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px ;
+
+}
+.heading1{
+    color: #333333;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.section1{
+    display: flex;
+}
+#section-text{
+    width: 50%;
+}
+.headimage{
+    width: 50%;
+}
+#himage{
+    width: 100%;
+    height: 90%;
+}
+.banner-text{
+    text-align: right;
+    padding-top: 100px;
+    margin-right: 25px;
+    color: #00BCD4;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.banner-subtext{
+    text-align: right;
+    color: aqua;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 10px;
+    font-family: Tahoma;
+    margin-right: 20px;
+    
+}
+.banner-butt{
+    background-color: #00BCD4;
+    color: #ffffff;
+    float: center;
+    margin-bottom: 10px;
+}
+#content-1{
+    position: relative;
+    
+}
+.content-head h1{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.content-text{
+    text-align: justify;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#services{
+    display: flex;
+}
+#service-boxes{
+    display: grid;
+}
+#pricing-section{
+    max-width: 1060;
+    margin: o auto;
+}
+.overtitle{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 18px;  
+    transform: uppercase;
+    color: rgb(1, 1, 77);
+    text-align: center;
+}
+.section-heading{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+.section-subtittle{
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 700px;
+}
+#pricing-boxes{
+    display: flex;
+    margin-top: 22px;
+}
+.pricing-boxes{
+    width: 33.33%;
+    
+
+}
+.pricing-card{
+    background-color: rgb(158, 225, 245);
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow:6px 2px -9px #0000001A ;
+    padding:20px ;
+}
+.service{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 21px ;
+    text-transform: uppercase;
+    color: blue;
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: 8px;
+    font-weight: 700;
+    line-height: 54px;
+    color: black;
+}
+.service-description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 21px ;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 8px;
+}
+.service-benefits{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+}
+.service-benefits li{
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+} 
+.price-per{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8a8a8a;
+     
+}
+.service-contact-button{
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #2f2f2f ;
+    background-color: #ffff ;
+
+    color: #2f2f2f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+
+}
+.service-contact-button:hover {
+    background-color: blue;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.pricing-card.box-2{
+    background-color: rgb(76, 77, 77);
+
+}
+.box-2.price-per{
+    color: rgb(34, 189, 189);
+}
+.box-2.service-benefits{
+    color:  rgb(34, 189, 189);
+}
+.box-2.service-description{
+    color:  rgb(34, 189, 189);
+}
+.box-2.service-benefits{
+    color:  rgb(34, 189, 189);
+}
+.box-2 li{
+    color:  rgb(34, 189, 189);
+}
+.box-2.service{
+    color:  rgb(34, 189, 189);
+}
+.box-2.service-contact-button{
+    background-color: blue;
+    color: #ffffff;
+}
+.box-2.service-contact-button:hover{
+    background-color: #ffffff;
+    color:  blue;    
+}
+
+
+#banner{
+    background-image: url(software-developer-6521720_1280.jpg);
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-position: center;
+    margin-top: 20px;
+    height: 300px;
+
+}
+.image-edit{
+    margin-top: 8px;
+    padding: auto;
+}
+#services{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
